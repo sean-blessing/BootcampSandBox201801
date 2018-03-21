@@ -61,4 +61,16 @@ public class Product {
 				+ getNumberOfObjects();
 		return msg;
 	}
+
+	@Override
+	public String toString() {
+		String msg = "Product data:  " + getCode()+ " | " + getDescription()+ " | " + getPrice();
+		return msg;
+	}
+	
+/*	public String toString() {
+		String msg = "This is a product instance.";
+		return msg;
+	}*/
+	
 }
